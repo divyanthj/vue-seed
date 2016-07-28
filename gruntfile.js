@@ -241,7 +241,7 @@ module.exports = function (grunt) {
 
           'copy:scripts',
 
-          'newer:jshint:all',
+          //'newer:jshint:all',
 
           'notify:buildJsComplete'
 
