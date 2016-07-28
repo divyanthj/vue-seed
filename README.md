@@ -1,6 +1,6 @@
 # Vue Seed Project
 
-This is a self-contained seed project off of which you can build angular based web apps. Many plugins have been installed for ease and convenience. This app has the following items in stack.
+This is a self-contained seed project off of which you can build vue based web apps. Many plugins have been installed for ease and convenience. This app has the following items in stack.
 
 1. Package Managers
     1. [Node Package Manager](https://www.npmjs.com/)
@@ -91,8 +91,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-## Support on Beerpay
-Hey dude! Help me out for a couple of :beers:!
-
-[![Beerpay](https://beerpay.io/divyanthj/angular-seed/badge.svg?style=beer-square)](https://beerpay.io/divyanthj/angular-seed)  [![Beerpay](https://beerpay.io/img/badges/make-wish-square.svg)](https://beerpay.io/divyanthj/angular-seed?focus=wish)
