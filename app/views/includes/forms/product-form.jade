@@ -1,0 +1,25 @@
+.panel-body
+  .panel.panel-default.horiz-padded-content
+    .panel-body
+      edit-form(
+        name="productForm", 
+        consume="PRODUCT", 
+        data="activeProduct",
+        link="activeData"
+      )
+        div(class="button-container")
+          generic-button(
+            flag="true", 
+            fn="app.goHome", 
+            text="Cancel"
+          )
+          modify-button(
+            flag="modified",
+            function="reset",
+            text="Reset"
+          )
+          modify-button(
+            flag="formCtrl.$validated",
+            function="saveProduct", 
+            text="Save"
+          )

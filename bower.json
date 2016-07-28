@@ -1,5 +1,5 @@
 {
-  "name": "Vue Seed",
+  "name": "vue-seed",
   "description": "Seed for Vue apps",
   "main": "index.js",
   "license": "ISC",
@@ -17,7 +17,6 @@
     "normalize-css": "^4.0.0",
     "bootstrap-css-only": "^3.3.6",
     "clipboard": "^1.5.10",
-    "angular-ui-notification": "^0.2.0",
     "components-font-awesome": "^4.5.0",
     "vue": "^1.0.26"
   }

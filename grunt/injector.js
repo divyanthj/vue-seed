@@ -18,7 +18,7 @@ module.exports = {
 
     'files' : {
 
-      'index.html' : ['<%= paths.dist %>/scripts/app.module.js',
+      'index.html' : ['<%= paths.dist %>/scripts/app.js',
                       '<%= paths.dist %>/scripts/**/*.js']
 
     }

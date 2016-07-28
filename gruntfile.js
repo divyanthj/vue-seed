@@ -70,6 +70,8 @@ module.exports = function (grunt) {
 
           'config': require('./grunt/config'),
 
+          'injector' : require('./grunt/injector'),
+
           'includereplacemore': require('./grunt/include-replace-more'),
 
           'replace': require('./grunt/replace'),
@@ -196,6 +198,8 @@ module.exports = function (grunt) {
           'buildjade',
 
           'buildjs',
+
+          'injector',
 
           'buildstyles',
 

@@ -1,0 +1,7 @@
+div(
+  ng-hide="!app.isTransitioning",
+  class="loading-transition panel panel-primary hovering-container centered-container"
+)
+  div(class="spinner")
+    p(ng-bind="app.loadingMessaging")
+    i(class="fa fa-cog fa-spin fa-fw fa-cog-special")
