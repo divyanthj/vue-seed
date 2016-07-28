@@ -4,7 +4,7 @@ var app = require('../server').getApp();
 
 /**
   * Handle 404 errors with redirecting the user to
-  * our landing page for Common Product - Web
+  * our landing page for Vue Seed
  */
 
 app.use(function (req, res) {

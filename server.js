@@ -1,5 +1,5 @@
 /**
-  * Primary Application for Common Product Web
+  * Primary Application for Vue Seed
   * @version: 0.0.1
 */
 
