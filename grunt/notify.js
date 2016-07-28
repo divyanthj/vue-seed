@@ -6,7 +6,7 @@ module.exports = {
 
     'options': {
 
-      'message': '## Foot Locker ## Build Complete!'
+      'message': '## Vue Seed ## Build Complete!'
 
     }
 
@@ -16,7 +16,7 @@ module.exports = {
 
     'options': {
 
-      'message': '## Foot Locker ## Build for JS Complete!'
+      'message': '## Vue Seed ## Build for JS Complete!'
 
     }
 
@@ -26,7 +26,7 @@ module.exports = {
 
     'options': {
 
-      'message': '## Foot Locker ## Build for Jade Complete!'
+      'message': '## Vue Seed ## Build for Jade Complete!'
 
     }
 
@@ -36,7 +36,7 @@ module.exports = {
 
     'options': {
 
-      'message': '## Foot Locker ## Build for styles Complete!'
+      'message': '## Vue Seed ## Build for styles Complete!'
 
     }
 
