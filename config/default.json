@@ -1,0 +1,15 @@
+{
+
+  "application" : {
+
+    "developmentPort" : 9010,
+
+    "developmentPortSSL" : 9010,
+
+    "productionPort" : 80,
+
+    "productionPortSSL" : 443
+
+  }
+
+}
