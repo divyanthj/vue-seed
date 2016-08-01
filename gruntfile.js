@@ -82,8 +82,6 @@ module.exports = function (grunt) {
 
           'copy' : require('./grunt/copy'),
 
-          'notify': require('./grunt/notify'),
-
         'bowerInstall': require('./grunt/bower-install'),
 
         'nodemon': require('./grunt/nodemon'),
@@ -215,8 +213,6 @@ module.exports = function (grunt) {
 
         grunt.task.run(tasks);
 
-        tasks.push('notify:buildComplete');
-
       });
 
       grunt.registerTask('buildconfig', function() {
@@ -243,8 +239,6 @@ module.exports = function (grunt) {
 
           //'newer:jshint:all',
 
-          'notify:buildJsComplete'
-
         ]);
 
       });
@@ -261,9 +255,7 @@ module.exports = function (grunt) {
 
           'clean:includes',
 
-          'includereplacemore:html',
-
-          'notify:buildJadeComplete'
+          'includereplacemore:html'
 
         ]);
 
@@ -277,9 +269,7 @@ module.exports = function (grunt) {
 
           'compass:server',
 
-          'postcss',
-
-          'notify:buildStylesComplete'
+          'postcss'
 
         ]);
 
